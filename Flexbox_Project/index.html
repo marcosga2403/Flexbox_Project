@@ -1,106 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/Logo-Codegpt-512-2.webp"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>CodeGPT</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">AI Agents Marketplace</a></li>
-          <li><a href="#"> Developers</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="firs_info">
-        <h1><span>AI</span> Coding for Developers</h1>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/Logo-Codegpt-512-2.webp" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>CodeGPT</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerimg">
+      <img src="./assets/images/codegpt_logotype-wide-@2x.webp" alt="Logo CodeGPT">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">AI Agents Marketplace</a></li>
+        <li><a href="#"> Developers</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </nav>
+    <img src="./assets/images/menu-toggle.svg" alt="menu" id="menu">
+    <div class="headerlogin">
+      <button id="signin">Sign In</button>
+      <button id="signup">Sign Up</button>
+    </div>
+  </header>
+  <main>
+    <section class="firs_info">
+      <h1><span>AI</span> Coding for Developers</h1>
+      <p>
+        Explore our <strong>AI Code Assistants</strong> and
+        <strong>Copilot Generator Platform</strong>, tailored for AI coding.
+        We offer the perfect solution, specifically designed to make it simple
+        for the engineering teams to code using AI.
+      </p>
+      <div class="buttons">
+        <button id="account">Create Free Acount</button>
+        <button id="download">Download VSCode/Cursor Extension</button>
+      </div>
+      <div class="backedby">
+        <span>Backed by</span>
+        <img src="./assets/images/techstars-logo-vector-1.svg" alt="techstars">
+      </div>
+    </section>
+    <div class="main_image">
+      <img src="./assets/images/marketplace.webp" alt="marketplace" class="image_video">
+    </div>
+    <div class="second_info">
+      <article class="first_article">
+        <div>
+          <h3>AI Coding for Developers</h3>
+          <span>For Devs</span>
+        </div>
         <p>
-          Explore our <strong>AI Code Assistants</strong> and
-          <strong>Copilot Generator Platform</strong>, tailored for AI coding.
-          We offer the perfect solution, specifically designed to make it simple
-          for the engineering teams to code using AI.
+          Simply
+          <strong>use CodeGPT in your favority IDE Extension (VS Code, Cursor, or
+            Jet Brains) and start your AI Coding journey.</strong>
+          CodeGPT is a GitHub Copilot alternative, but with added flexibility:
+          you control the prompts, choose the AI Model, and empower your AI
+          coding with as many AI Assistants as you need.
         </p>
-        <div class="buttons">
-          <button id="account">Create Free Acount</button>
-          <button id="download">Download VSCode/Cursor Extension</button>
+      </article>
+      <article class="second_article">
+        <div>
+          <h3>AI Assistant creator</h3>
+          <span>No Code</span>
         </div>
-        <div class="backedby">
-          <span>Backed by</span>
-          <img
-            src="./assets/images/techstars-logo-vector-1.svg"
-            alt="techstars"
-          />
+        <p>
+          <strong>Begin by creating your AI Copilots,</strong> Agents, or
+          GPTs, whatever you prefer to call them; or select one from the
+          Marketplace. You can
+          <strong>share your AI coding assistants within your Organization</strong>
+          with your internal documentation, and summon the agents from various
+          applications. <span>NO CREDIT CARD REQUIRED :)</span>
+        </p>
+      </article>
+      <article class="third_article">
+        <div>
+          <h3>AI Assistants in your workflow</h3>
+          <span>API</span>
         </div>
-      </section>
-      <div class="main_image">
-        <img
-          src="./assets/images/marketplace.webp"
-          alt="marketplace"
-          class="image_video"
-        />
+        <p>
+          Integrate your AI Assistants into your current workflow. You can
+          port your agents using our API or through
+          <strong>integrations with Discord, Slack, MS Teams, and others.</strong>
+          It's important to have the AI agents where you need them, not just
+          when coding.
+        </p>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="description">
+      <div class="footer_article">
+        <div class="footer_logo"><img src="./assets/images/logotype_intercom_footer.webp" alt="Logotipo CodeGPT"></div>
+        <div class="footer_description">
+          CodeGPT is a set of AI-based solutions designed for maximum customization, meeting the highest security
+          standards with its self-hosted solution. CodeGPT features an AI assistant creator (or GPTs), an Agent
+          Marketplace, a Copilot for software engineers, and an API for advanced solutions.
+        </div>
       </div>
-      <div class="second_info">
-        <article class="first_article">
-          <div>
-            <h3>AI Coding for Developers</h3>
-            <span>For Devs</span>
-          </div>
-          <p>
-            Simply
-            <strong
-              >use CodeGPT in your favority IDE Extension (VS Code, Cursor, or
-              Jet Brains) and start your AI Coding journey.</strong
-            >
-            CodeGPT is a GitHub Copilot alternative, but with added flexibility:
-            you control the prompts, choose the AI Model, and empower your AI
-            coding with as many AI Assistants as you need.
-          </p>
-        </article>
-        <article class="second_article">
-          <div>
-            <h3>AI Assistant creator</h3>
-            <span>No Code</span>
-          </div>
-          <p>
-            <strong>Begin by creating your AI Copilots,</strong> Agents, or
-            GPTs, whatever you prefer to call them; or select one from the
-            Marketplace. You can
-            <strong
-              >share your AI coding assistants within your Organization</strong
-            >
-            with your internal documentation, and summon the agents from various
-            applications. <span>NO CREDIT CARD REQUIRED :)</span>
-          </p>
-        </article>
-        <article class="third_article">
-          <div>
-            <h3>AI Assistants in your workflow</h3>
-            <span>API</span>
-          </div>
-          <p>
-            Integrate your AI Assistants into your current workflow. You can
-            port your agents using our API or through
-            <strong
-              >integrations with Discord, Slack, MS Teams, and others.</strong
-            >
-            It's important to have the AI agents where you need them, not just
-            when coding.
-          </p>
-        </article>
+      <div class="footer_info">
+        <section class="section_codegpt">
+          <h6>Code GPT</h6>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Academy</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </section>
+        <section class="section_docs">
+          <h6>Docs</h6>
+          <ul>
+            <li><a href="#">API Docs</a></li>
+            <li><a href="#">Studio Docs</a></li>
+            <li><a href="#">Extension Docs</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </section>
+        <section class="section_products">
+          <h6>Products</h6>
+          <ul>
+            <li><a href="#">VS Code Extension</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </section>
       </div>
-    </main>
-    <footer></footer>
-  </body>
+    </div>
+    <div class="footer_copy">
+      <div class="copy">
+        <span>Copyright © 2024 Judini Inc All Rights Reserved.</span>
+        <span>Privacy Policy | Terms & Condition</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
 </html>
